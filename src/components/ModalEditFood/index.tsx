@@ -15,18 +15,11 @@ interface FoodData {
 	image: string;
 }
 
-interface FoodInput {
-	name: string;
-	description: string;
-	price: string;
-	image: string;
-}
-
 interface ModalEditFoodProps {
 	isOpen: boolean;
 	setIsOpen: () => void;
 	editingFood: FoodData;
-	handleUpdateFood: (food: FoodInput) => Promise<void>;
+	handleUpdateFood: (food: FoodData) => Promise<void>;
 }
 
 function ModalEditFood(props: ModalEditFoodProps) {

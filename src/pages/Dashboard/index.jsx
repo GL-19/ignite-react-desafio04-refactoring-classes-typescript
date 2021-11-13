@@ -23,7 +23,7 @@ function Dashboard() {
 				...food,
 				available: true,
 			});
-
+			console.log(response);
 			setFoods([...foods, response.data]);
 		} catch (err) {
 			console.log(err);
@@ -71,7 +71,11 @@ function Dashboard() {
 	return (
 		<>
 			<Header openModal={toggleModal} />
-			<ModalAddFood isOpen={modalOpen} setIsOpen={toggleModal} handleAddFood={handleAddFood} />
+			<ModalAddFood
+				isOpen={modalOpen}
+				setIsOpen={toggleModal}
+				handleAddFood={handleAddFood}
+			/>
 			<ModalEditFood
 				isOpen={editModalOpen}
 				setIsOpen={toggleEditModal}

@@ -10,17 +10,17 @@
     },
     {
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png",
-      "name": "Frango",
+      "name": "Ao Molho",
       "price": "20.00",
-      "description": "Macarrão com frango, contem pimentão",
+      "description": "Macarrão ao molho branco, com fughi e cheiro verde",
       "available": true,
       "id": 3
     },
     {
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png",
-      "name": "Camaronada",
+      "name": "La Camaronada",
       "price": "25,90",
-      "description": "Macarrão com camarão",
+      "description": "Macarrão com molho de camarão, contém pimenta e pimentão",
       "available": true,
       "id": 4
     }
